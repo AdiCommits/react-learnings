@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 
 function Greeting() {
-  return <h2>Welcome to React Booklist app</h2>;
+  return React.createElement("h2", {}, "Welcome to Booklist app");
 }
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
