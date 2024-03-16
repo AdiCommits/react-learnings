@@ -15,7 +15,7 @@ const Book = () => {
   return (
     <article>
       <img
-        src="https://m.media-amazon.com/images/I/71QKQ9mwV7L._SY425_.jpg"
+        src="./images/subtle_art_of_not_giving_fk.jpg"
         alt="The Subtle Art of Not Giving a F*ck"
       />
       <h2> The Subtle Art of Not Giving a F*ck</h2>
