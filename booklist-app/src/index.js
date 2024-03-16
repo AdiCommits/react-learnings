@@ -1,9 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
+import "./index.css";
+
 const Booklist = () => {
   return (
     <section>
+      <Book />
       <Book />
       <Book />
       <Book />
@@ -13,7 +16,7 @@ const Booklist = () => {
 
 const Book = () => {
   return (
-    <article>
+    <article className="book">
       <img
         src="./images/subtle_art_of_not_giving_fk.jpg"
         alt="The Subtle Art of Not Giving a F*ck"
