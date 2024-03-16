@@ -1,18 +1,29 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
-function Greeting() {
+const Booklist = () => {
   return (
-    <div>
-      <Title />
-      <Caption />
-    </div>
+    <section>
+      <Book />
+      <Book />
+      <Book />
+    </section>
   );
-}
+};
 
-const Title = () => <h2>Welcome to Booklist-app</h2>;
-const Caption = () => <p>This is where the caption goes</p>;
+const Book = () => {
+  return (
+    <article>
+      <img
+        src="https://m.media-amazon.com/images/I/71QKQ9mwV7L._SY425_.jpg"
+        alt="The Subtle Art of Not Giving a F*ck"
+      />
+      <h2> The Subtle Art of Not Giving a F*ck</h2>
+      <h2> Mark Manson</h2>
+    </article>
+  );
+};
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
-root.render(<Greeting />);
+root.render(<Booklist />);
